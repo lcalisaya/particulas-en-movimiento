@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  /*background: #6a5339;*/
+  background: rgba(124, 76, 32, 0.81);
+  height: 70px;
+  position: fixed;
+  z-index: 100;
+}
+
+.container {
+  width: 80%;
+  height: 70px;
+  margin: auto;
+}
+
+.logo{
+  width: 30%;
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.logo p a {
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Satisfy', cursive;
+}
+
+nav {
+  width: 70%;
+  height: 70px;
+  float: left;
+  text-align: right;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+nav ul li a:hover {
+  color: #13afe0;
+}
+
+#particles-js {
+  /*background: #444;*/
+  background: url(../img/patagonia-monte-fitz-roy.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-container {
+  width: 100%;
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  z-index: 10;
+}
+
+.slider-text {
+  width: 80%;
+  margin: auto;
+}
+
+.slider-text h1 {
+  color: #7c4c20;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 70px;
+}
+.slider-text p {
+  color: #ecd32e;
+  font-size: 25px;
+  font-family: sans-serif;
+}
